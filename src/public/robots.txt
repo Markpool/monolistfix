@@ -1,0 +1,5 @@
+User-agent: *
+# Сайт открыт для роботов
+Allow: /
+
+Sitemap: https://psk-monolit.su/sitemap.xml

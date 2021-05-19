@@ -1,0 +1,24 @@
+include ../../../node_modules/bempug/index
+- BEMPUG.modifier = '_';
+
+doctype html
+html(lang="ru")
+  include ../general/head
+  body#main-page.cursor.ru.background-page
+    include ../general/header
+    .pattern
+    main.wrapper-grid
+
+      .container2
+      h1.heading-page Контакты
+      .section-contacts
+        strong.section-contacts__name-contact Телефон:
+        a(href="tel:+79261903444").section-contacts__link-contact +7(926)190-34-44
+        strong.section-contacts__name-contact E-mail:
+        a(href="email:dm.psk@list.ru").section-contacts__link-contact dm.psk@list.ru
+
+
+
+    include ../general/footer
+
+    .loader

@@ -1,0 +1,30 @@
+.section-contacts {
+  background: #ffffff;
+  padding: 35px 40px;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-contacts__name-contact {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.section-contacts__link-contact {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #000000;
+}
+
+.section-contacts__link-contact:hover {
+  color: #52bcf0;
+}
+/*# sourceMappingURL=contact.css.map */

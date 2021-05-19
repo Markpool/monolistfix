@@ -1,0 +1,26 @@
+// -->Без него не работает нормально при маленьком наполнение страница
+.container2 {
+  padding: 30px;
+}
+// Без него не работает нормально при маленьком наполнение<--
+
+.background-page {
+  background: url("../img/general/background-page.jpg");
+  background-size: cover;
+}
+
+.wrapper-grid {
+  max-width: 1160px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.heading-page {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  margin: 0 0 40px 0;
+}

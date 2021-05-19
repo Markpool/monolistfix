@@ -1,0 +1,79 @@
+include ../../../node_modules/bempug/index
+- BEMPUG.modifier = '_';
+
+doctype html
+html(lang="ru")
+  include ../general/head
+  body#main-page.cursor.ru
+    include ../general/header
+
+    .background
+      .cycle-slideshow(data-cycle-fx='tileSlide' data-cycle-tile-count='10' data-cycle-tile-vertical='false' data-cycle-timeout='6000')
+        img(src='/img/2.jpg' title='«Московская Пивоваренная компания»' alt='Строительство очистных сооружений')
+        img(src='/img/1.jpg' title='«Стан 5000 Выксунский металлургический завод»' alt='Строительство фундамента под главный производственный корпус')
+        img(src='/img/5.jpg' title='Завод по производству потолочных плит «Армстронг»' alt='Строительство фундаментов под технологическое оборудование')
+        img(src='/img/4.jpg' title='Целлюлозно-бумажный комбинат АО «КНАУФ ПЕТРОБОРД»' alt='Строительство первой очереди очистных сооружений')
+        img(src='/img/3.jpg' title='Пивоваренный завод «Балтика-Ярославль»' alt='Строительство очистных сооружений')
+        img(src='/img/6.jpg' title='Завод по производству потолочных плит «Пуратос»' alt='Строительство очистных сооружений')
+        img(src='/img/7.jpg' title='Завод по производству пищевых добавок ЗАО «Пуратос»' alt='Строительство очистных сооружений')
+        img(src='/img/8.jpg' title='Пивоваренный завод ЗАО «Пивоварня Москва-Эфес»' alt='Строительство очистных сооружений')
+      .pattern
+      .cycle-caption
+        h3 Завод по производству потолочных плит "«Армстронг»"
+        p Строительство фундаментов под технологического оборудование
+        p
+    .container
+      .line
+        .services
+          a.service-1(href="https://psk-monolit.su/services/stroitel'stvo_ochistnyh_sooruzhenij.php")
+            i
+            b
+              | Строительство
+              br
+              | очистных сооружений
+          a.service-2(href='https://psk-monolit.su/services/proektirovanie.php')
+            i
+            b
+              | Проектирование
+              br
+              | очистных сооружений
+          a.service-3(href='https://psk-monolit.su/services/montazh_tekhnologicheskogo_oborudovaniya_i_inzhenernyh_setej.php')
+            i
+            b Монтаж технологического оборудования и инженерных сетей
+          a.service-4(href='https://psk-monolit.su/services/radiusnaya_opalubka.php')
+            i
+            b
+              | Радиусная
+              br
+              | Опалубка
+        .citation
+          .active
+            h2 Строительство очистных сооружений:
+            p
+              | Строительство монолитных железобетонных резервуаров как прямоугольных так и круглых. Строительство зданий из ЛМК. Монтаж инженерных систем зданий
+              a(href="https://psk-monolit.su/services/stroitel'stvo_ochistnyh_sooruzhenij.php") ...
+            p
+          div
+            h2 Проектирование
+            p
+              | ООО «ПСК Монолит» осуществляет полный спектр работ, связанных с проектированием и строительством новых и реконструкции существующих очистных сооружений, включая следующие
+				
+              a(href='https://psk-monolit.su/services/proektirovanie.php') ...
+            p
+          div
+            h2 Монтаж технологичеsского оборудования и инженерных сетей
+            p 
+              | Специалисты компании ООО «ПСК Монолит» выполняют работы по монтажу оборудования для очистных сооружений различной сложности
+              a(href='https://psk-monolit.su/services/montazh_tekhnologicheskogo_oborudovaniya_i_inzhenernyh_setej.php') ...
+            p
+          div
+            h2 Радиусная опалубка
+            p
+              | При возведении зданий и сооружений довольно часто выполняются криволинейные вертикальные монолитные элементы (радиусные и эллиптические)
+				
+              a(href='https://psk-monolit.su/services/radiusnaya_opalubka.php') ...
+            p
+
+    include ../general/footer
+
+    .loader
